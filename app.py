@@ -3,10 +3,11 @@ from dtc_analyzer import get_dtc_info
 from report_parser import parse_validation_report
 from waveform_analyzer import analyze_waveform
 import google.generativeai as genai
-API_KEY = "YOUR_API_KEY"
+import os
+import google.generativeai as genai
 
+API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
-
 model = genai.GenerativeModel("gemini-flash-latest")
 
 
