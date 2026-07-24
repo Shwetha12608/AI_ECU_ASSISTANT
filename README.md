@@ -236,7 +236,10 @@ Example:
 ```
 Can bad wiring cause this?
 ```
-Demo Link: 
+## 🎥 Demo Video
+
+[▶️ Watch the Demo Video](https://drive.google.com/file/d/1NDawDOA6Fu9VosSO-3H8OEHewXXj1ASd/view?usp=drive_link)
+
 ---
 
 # 🌍 Real World Implementation
